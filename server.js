@@ -12,6 +12,11 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+
 app.get('/api/categories', (req, res) => {
   const categories = [
     { name: 'Housing', amount: 0 },
