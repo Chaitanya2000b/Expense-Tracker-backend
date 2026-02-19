@@ -1,0 +1,28 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "Track Expense",
+  "keywords": [
+    "A"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "license": "ISC",
+  "author": "CB",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test."
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.11"
+  },
+  "scripts": {
+  "start": "node server.js"
+  }
+}
